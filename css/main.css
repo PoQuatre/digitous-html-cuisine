@@ -6,3 +6,7 @@
 .courgette {
   font-family: "Courgette", cursive, var(--bs-body-font-family);
 }
+
+#navbar {
+  transition: background-color ease-in-out 150ms;
+}
