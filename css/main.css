@@ -1,0 +1,8 @@
+:root {
+  --bs-body-font-family: "Oswald", var(--bs-font-sans-serif);
+  --bs-body-font-weight: 300;
+}
+
+.courgette {
+  font-family: "Courgette", cursive, var(--bs-body-font-family);
+}
