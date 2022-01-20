@@ -14,6 +14,15 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/brands.css"
+    />
+
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/homepage.css" />
@@ -78,6 +87,125 @@
         <p class="courgette display-4 text-center">Le mag cuisine</p>
       </div>
     </header>
+
+    <main class="container py-5">
+      <h2 class="h1 text-center mb-5">Derniers articles</h2>
+
+      <div class="row">
+        <div class="col-12 col-lg-9">
+          <article
+            class="d-flex flex-column flex-md-row align-content-md-start gap-md-4"
+          >
+            <img
+              class="img-fluid"
+              src="./img/articles/suzette/suzette-small.jpg"
+              alt="Suzette"
+            />
+            <div>
+              <h3 class="courgette mt-3 mt-md-0">
+                Chez Suzette, la nouvelle crêperie qui fait parler d'elle
+              </h3>
+              <p>
+                La franchise "Chez Suzette" qui fait un carton chez les bretons
+                ouvre son premier restaurant à Paris dans le quartier latin.
+                Antoine de Cui'zine a testé pour vous les saveurs sucrés, salés
+                au froment ou au sarrazin !
+              </p>
+            </div>
+          </article>
+
+          <article class="mt-5 d-flex flex-column flex-md-row gap-md-4">
+            <img
+              class="img-fluid"
+              src="./img/articles/metro/metro-small.jpg"
+              alt="Métro"
+            />
+            <div>
+              <h3 class="courgette mt-3 mt-md-0">Le Métro dessert</h3>
+              <p>
+                Germain est ferrovipathe (ndlr: fan de train), son fils Maxime
+                est pâtissier. Ils ont décidé de réunir leur deux passions dans
+                un restaurant à la déco inspiré du métro parisien. À voir
+                absolument, mais qu'en est-il d'y aller pour manger ? Clémentine
+                entre en gare et nous donne son avis.
+              </p>
+            </div>
+          </article>
+
+          <article class="my-5 d-flex flex-column flex-md-row gap-md-4">
+            <img
+              class="img-fluid"
+              src="./img/articles/vitaly/vitaly-small.jpg"
+              alt="Vitaly"
+            />
+            <div>
+              <h3 class="courgette mt-3 mt-md-0">Vitaly, le végan italien</h3>
+              <p>
+                Quand on pense italien, on pense lasagne et jambon de Parme. Ils
+                l'ont fait, les saveurs de l'Italie à portée des herbivores.
+                Cette fois, c'est moi Tony qui vais le tester pour vous.
+              </p>
+            </div>
+          </article>
+
+          <a href="#" class="text-decoration-none text-black mt-5">
+            « Voir les articles précédents
+          </a>
+        </div>
+
+        <div class="d-none d-lg-block col-3">
+          <form class="d-flex flex-column">
+            <label class="courgette h5 form-label" for="search">
+              Recherche
+            </label>
+            <input
+              class="form-control"
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Recherche..."
+            />
+            <input class="btn btn-outline-dark mt-2" type="submit" value="Ok" />
+          </form>
+
+          <form class="d-flex flex-column mt-5">
+            <label class="courgette h5 form-label" for="email">
+              Newsletter
+            </label>
+            <input
+              class="form-control"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email..."
+            />
+            <input
+              class="btn btn-outline-dark mt-2"
+              type="submit"
+              value="S'inscrire"
+            />
+          </form>
+
+          <div class="mt-5">
+            <p class="courgette h5">Partager</p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#" class="text-black">
+                <i class="fab fa-facebook-square fa-lg"></i>
+              </a>
+              <a href="#" class="text-black">
+                <i class="fab fa-instagram fa-lg"></i>
+              </a>
+              <a href="#" class="text-black">
+                <i class="fab fa-youtube fa-lg"></i>
+              </a>
+              <a href="#" class="text-black">
+                <i class="fab fa-twitter fa-lg"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
